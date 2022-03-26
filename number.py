@@ -1,6 +1,10 @@
 import random
+star = input('請輸入數字範圍開始值: ')
+end = input('請輸入數字範圍結束值: ')
+star = int(star)
+end = int(end)
 
-r = random.randint(1, 100)
+r = random.randint(star, end)
 count = 0
 while True:
 	count += 1  # count = count + 1
